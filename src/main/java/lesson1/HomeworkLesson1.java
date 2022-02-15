@@ -77,7 +77,7 @@ public class HomeworkLesson1 {
      array[index2] = temp;
     }
 
-    public static <V> ArrayList arrayToList(V[] array){
+    public static <V> ArrayList<V> arrayToList(V[] array){
         ArrayList<V> list = new ArrayList<>();
         for (int i = 0; i < array.length; i++) {
             list.add(array[i]);
